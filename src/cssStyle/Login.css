@@ -1,0 +1,39 @@
+.create-acc-container {
+  max-width: 450px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-acc-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-acc-container h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.create-acc-container p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #1976d2;
+}
+
+.submit-button:hover {
+  background-color: #1565c0;
+  box-shadow: 0 4px 8px rgba(21, 101, 192, 0.2);
+}
